@@ -1,11 +1,11 @@
 # React Date Picker
 
-[![npm](https://img.shields.io/npm/v/react-datepicker-fa.svg)](https://www.npmjs.com/package/react-datepicker-fa)
-[![npm](https://img.shields.io/npm/dt/react-datepicker-fa.svg)](https://www.npmjs.com/package/react-datepicker-fa)
-[![Build Status](https://travis-ci.org/savalanpour/react-datepicker-fa.svg?branch=master)](https://travis-ci.org/savalanpour/react-datepicker-fa)
-[![CircleCI](https://camo.githubusercontent.com/c1386597a2ed29a0e01cf57ee5fe0070e9c6941a/68747470733a2f2f636972636c6563692e636f6d2f67682f6d6265726e6574692f72656163742d646174657069636b6572322e7376673f7374796c653d737667)](https://circleci.com/gh/savalanpour/react-datepicker-fa)
+[![npm](https://img.shields.io/npm/v/react-datepicker-persian.svg)](https://www.npmjs.com/package/react-datepicker-persian)
+[![npm](https://img.shields.io/npm/dt/react-datepicker-persian.svg)](https://www.npmjs.com/package/react-datepicker-persian)
+[![Build Status](https://travis-ci.org/savalanpour/react-datepicker-persian.svg?branch=master)](https://travis-ci.org/savalanpour/react-datepicker-persian)
+[![CircleCI](https://camo.githubusercontent.com/c1386597a2ed29a0e01cf57ee5fe0070e9c6941a/68747470733a2f2f636972636c6563692e636f6d2f67682f6d6265726e6574692f72656163742d646174657069636b6572322e7376673f7374796c653d737667)](https://circleci.com/gh/savalanpour/react-datepicker-persian)
 
-A simple and reusable Datepicker component for React (with persian jalali calendar support) [Demo](https://savalanpour.github.io/react-datepicker-fa/).
+A simple and reusable Datepicker component for React (with persian jalali calendar support) [Demo](https://savalanpour.github.io/react-datepicker-persian/).
 
 This package uses [react-persian-datepicker](https://github.com/evandhq/react-persian-datepicker) project under the hood.
 
@@ -14,16 +14,16 @@ This package uses [react-persian-datepicker](https://github.com/evandhq/react-pe
 The package can be installed via NPM:
 
 ```
-npm install react-datepicker-fa --save
+npm install react-datepicker-persian --save
 ```
 
-At this point you can import react-datepicker-fa and its styles in your application as follows:
+At this point you can import react-datepicker-persian and its styles in your application as follows:
 
 ```js
-import DatePicker from 'react-datepicker-fa';
+import DatePicker from 'react-datepicker-persian';
 
 // Be sure to include styles at some point, probably during your bootstrapping
-import 'react-datepicker-fa/dist/react-datepicker-fa.min.css';
+import 'react-datepicker-persian/dist/react-datepicker-persian.min.css';
 ```
 
 Below is a simple example on how to use the Datepicker in a React view. You will also need to require the css file from this package (or provide your own). The example below shows how to include the css from this package if your build system supports requiring css files (webpack is one that does).
@@ -31,9 +31,9 @@ Below is a simple example on how to use the Datepicker in a React view. You will
 ```js
 import React from 'react'
 import moment from 'moment-jalaali'
-import DatePicker from 'react-datepicker-fa';
+import DatePicker from 'react-datepicker-persian';
 
-import 'react-datepicker-fa/dist/react-datepicker-fa.min.css';
+import 'react-datepicker-persian/dist/react-datepicker-persian.min.css';
 
 export default React.createClass({
   getInitialState() {
@@ -50,14 +50,14 @@ export default React.createClass({
 })
 
 ```
-You can also use the standalone build by including react-datepicker-fa.js and react-datepicker-fa.css in your page. (If you do this though you'll also need to include the dependencies.) For example:
+You can also use the standalone build by including react-datepicker-persian.js and react-datepicker-persian.css in your page. (If you do this though you'll also need to include the dependencies.) For example:
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
 <script src="https://unpkg.com/classnames/index.js"></script>
-<script src="https://unpkg.com/react-datepicker-fa/dist/index.js"></script>
+<script src="https://unpkg.com/react-datepicker-persian/dist/index.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/react-datepicker-fa/dist/react-datepicker-fa.min.css">
+<link rel="stylesheet" href="https://unpkg.com/react-datepicker-persian/dist/``react-datepicker-persian``.min.css">
 ```
 
 ## Configuration

@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["react-datepicker-fa"] = factory();
+		exports["react-datepicker-persian"] = factory();
 	else
-		root["react-datepicker-fa"] = factory();
+		root["react-datepicker-persian"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
