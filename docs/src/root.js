@@ -24,19 +24,19 @@ export default React.createClass({
           </div>
         </div>
         <div className="wrapper">
-          <h1>ReactJS Datepicker Fa</h1>
+          <h1>ReactJS Datepicker Persian</h1>
           <p>A simple and reusable datepicker component for React. (with persian jalaali calendar)</p>
 
           <h2>Installation</h2>
           <p>The package can be installed via NPM:</p>
-          <p><code>npm install react-datepicker-fa --save</code></p>
+          <p><code>npm install react-datepicker-persian --save</code></p>
         </div>
         <div className="wrapper">
           <ExampleComponents />
         </div>
 
-        <a href="https://github.com/savalanpour/react-datepicker-fa">
-          <img className="github-ribbon" src="https://savalanpour.github.io/react-datepicker-fa/images/ribbon.png" alt="Fork me on GitHub" />
+        <a href="https://github.com/savalanpour/react-datepicker-persian">
+          <img className="github-ribbon" src="https://savalanpour.github.io/react-datepicker-persian/images/ribbon.png" alt="Fork me on GitHub" />
         </a>
       </div>
     )
