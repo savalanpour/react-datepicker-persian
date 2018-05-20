@@ -11,7 +11,7 @@ export default React.createClass({
         <div className="hero">
           <div className="hero__content">
             <h1 className="hero__title">
-              ReactJS Datepicker Fa
+              ReactJS Datepicker Persian
             </h1>
             <div className="hero__crafted-by">
               <a href="https://berneti.ir" className="hero__crafted-by-link">
