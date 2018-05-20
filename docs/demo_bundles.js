@@ -30832,7 +30832,7 @@ exports.default = _react2.default.createClass({
           _react2.default.createElement(
             'h1',
             { className: 'hero__title' },
-            'ReactJS Datepicker Fa'
+            'ReactJS Datepicker Persian'
           ),
           _react2.default.createElement(
             'div',
